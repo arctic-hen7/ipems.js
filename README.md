@@ -2,13 +2,13 @@
 
 > THIS MODULE IS NOT YET STABLE! USE IN PRODUCTION IS AT YOUR OWN RISK!
 
-This package is an implementation of the [Internal Program Error Management System (IPEMS)](LINK NEEDED) (v0.1.0) for JavaScript and NodeJS, with inbuilt TypeScript support!
+This package is an implementation of the [Internal Program Error Management System (IPEMS)](https://github.com/arctic-hen7/ipems) (v0.1.0) for JavaScript and NodeJS, with inbuilt TypeScript support!
 
 ## What is IPEMS?
 
 IPEMS is a system of managing errors within a program. Every time we as programmers need to throw an error for some reason, we usually use a simple error message written in *natural language*, that is, language for people. However, this means there's very often little-to-no consistency between error messages in a program. You can have everything from a highly detailed error even offering possible solutions to "the program failed successfully". IPEMS tries to make error management more universal by providing a powerful system of initialising errors with a *class*, *type*, and *severity* to organize them. Each error can then be encoded into some human-readable form by and *encoder*.
 
-For a full introduction to IPEMS, see [this document from the IPEMS project](LINK NEEDED).
+For a full introduction to IPEMS, see [this document from the IPEMS project](https://github.com/arctic-hen7/ipems/blob/main/protocol/basic-introduction.md).
 
 ## Documentation
 
@@ -133,7 +133,7 @@ const exampleFn = (url) => {
 
 ## Versioning
 
-This project uses [semantic versioning](LINK NEEDED), though the version of this module may not correspond to the version of IPEMS that it implements! That version is listed at the top of the page, and in the module's `package.json` description. The reason for the incontinuity is that there may be a bug in this module, but no bug in the IPEMS protocol, and so only this module would need be updated.
+This project uses [semantic versioning](https://semver.org/), though the version of this module may not correspond to the version of IPEMS that it implements! That version is listed at the top of the page, and in the module's `package.json` description. The reason for the incontinuity is that there may be a bug in this module, but no bug in the IPEMS protocol, and so only this module would need be updated.
 
 ## Stability
 
