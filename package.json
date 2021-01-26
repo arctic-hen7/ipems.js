@@ -1,6 +1,6 @@
 {
 	"name": "ipems",
-	"version": "0.1.0-rc1",
+	"version": "0.1.0",
 	"description": "An implementation of the Internal Program Error Management System (IPEMS), v0.1.0, for JavaScript and NodeJS.",
 	"main": "dist/index",
 	"author": "arctic_hen7 <arctic_hen7@pm.me>",
