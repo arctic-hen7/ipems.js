@@ -5,6 +5,10 @@
 	"main": "dist/index",
 	"author": "arctic_hen7 <arctic_hen7@pm.me>",
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/arctic-hen7/ipems.js"
+	},
 	"scripts": {
 		"dev": "yarn clean && tsc --build && concurrently \"tsc --build --watch\" \"nodemon dist\"",
 		"build": "yarn run clean && yarn tsc --build",
