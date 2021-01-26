@@ -1,0 +1,62 @@
+{
+	"severities": {
+		"critical": "0",
+		"error": "1",
+		"warning": "2",
+
+		"generic": "0",
+		"unknown": "0"
+	},
+	"classes": {
+		"caller": {
+			"code": "1",
+			"types": {
+				"generic": "00",
+				"parameter": "01"
+			}
+		},
+		"callee": {
+			"code": "2",
+			"types": {
+				"generic": "00",
+				"return": "01"
+			}
+		},
+		"external": {
+			"code": "3",
+			"types": {
+				"generic": "00",
+				"return": "01",
+				"network": "02"
+			}
+		},
+		"user": {
+			"code": "4",
+			"types": {
+				"generic": "00",
+				"input": "01",
+				"authentication": "02"
+			}
+		},
+		"system": {
+			"code": "5",
+			"types": {
+				"generic": "00",
+				"permissions": "01"
+			}
+		},
+
+		"generic": {
+			"code": "0",
+			"types": {
+				"generic": "50"
+			}
+		},
+		"unknown": {
+			"code": "0",
+			"types": {
+				"unknown": "00"
+			}
+		}
+	}
+}

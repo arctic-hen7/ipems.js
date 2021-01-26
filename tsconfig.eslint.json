@@ -1,0 +1,6 @@
+{
+	// This TSConfig is used only for ESLint. It includes all TS/JS files so ESLint can lint them all without complaining
+	// about files that are out of its scope.
+	"extends": "./tsconfig.base.json",
+	"include": ["**/*.ts", "**/*.tsx", "**/*.js", ".eslintrc.js"]
+}

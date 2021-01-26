@@ -1,0 +1,5 @@
+.pnp.js
+.yarn/
+dist/
+.coverage/
+.next/

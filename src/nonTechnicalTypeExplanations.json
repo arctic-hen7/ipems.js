@@ -1,0 +1,31 @@
+{
+	"caller": {
+		"generic": "TODO",
+		"parameter": "This kind of error occurs when the program hasn't accounted for a particular use-case, and because no part of the program has been told how to handle it, the whole program crashes. The fact that this use-case hasn't been accounted for is a programming mistake, and you should file a bug report so this doesn't happen in future."
+	},
+	"callee": {
+		"generic": "TODO",
+		"return": "TODO"
+	},
+	"external": {
+		"generic": "TODO",
+		"return": "TODO",
+		"network": "TODO"
+	},
+	"user": {
+		"generic": "TODO",
+		"input": "TODO",
+		"authentication": "TODO"
+	},
+	"system": {
+		"generic": "TODO",
+		"permissions": "TODO"
+	},
+
+	"generic": {
+		"generic": "TODO"
+	},
+	"unknown": {
+		"unknown": "TODO"
+	}
+}

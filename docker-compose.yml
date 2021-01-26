@@ -1,0 +1,17 @@
+version: "3.7"
+services:
+    playground:
+        image: ipems.playground
+        container_name: ipems.playground
+        build:
+            context: ./
+            target: playground
+        volumes:
+            # Binds your app code into the container so changes you make are reflected instantly
+            - type: bind
+              source: ./
+              target: /app
+        network_mode: "host"
+        # Allows this container to be accessed with a terminal for debugging
+        stdin_open: true
+        tty: true

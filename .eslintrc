@@ -1,0 +1,39 @@
+{
+	"env": {
+		"browser": true,
+		"es2021": true,
+		"node": true
+	},
+	// We use the Airbnb style guide for neatness
+	"extends": [
+		"eslint:recommended",
+		"plugin:@typescript-eslint/recommended",
+		"airbnb-typescript",
+		"plugin:prettier/recommended",
+		"prettier/@typescript-eslint",
+		"prettier/babel"
+	],
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"ecmaVersion": 12,
+		"sourceType": "module",
+		// This TS config includes all files in our project so ESLint can use their types
+		// We use a different file for compiling because we don't need to compile our tests, Jest config, etc.
+		"project": "./tsconfig.eslint.json"
+	},
+	"plugins": ["@typescript-eslint", "prettier"],
+	"rules": {
+		"linebreak-style": ["error", "unix"],
+		"quotes": ["error", "double"],
+		"semi": ["error", "always"],
+		"prettier/prettier": "error",
+		"import/no-extraneous-dependencies": "off",
+		"no-underscore-dangle": "off",
+		"react/jsx-props-no-spreading": "off",
+		"react/jsx-indent": ["error", "tab"],
+		"react/jsx-indent-props": ["error", "tab"]
+	}
+}
