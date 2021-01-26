@@ -24,8 +24,6 @@ RUN apk add --no-cache python3 bash
 RUN yarn config set --home enableTelemetry 0
 # Let scripts know we're running in Docker
 ENV RUNNING_IN_DOCKER true
-# Set up our NPM config
-COPY --chown=node:node .npmrc /home/node/.npmrc
 COPY . .
 
 # Playground Stage - simple ZSH entrypoint for us to shell into the container as the non-root user
