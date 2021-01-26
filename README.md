@@ -12,7 +12,7 @@ For a full introduction to IPEMS, see [this document from the IPEMS project](htt
 
 ## Documentation
 
-IPEMS uses *classes*, *types*, and *severities* to classify errors. You should read the [basic introduction to IPEMS](LINK NEEDED) to understand how these work. For quick reference, see the [default paradigm cheatsheet](./cheatsheet.md).
+IPEMS uses *classes*, *types*, and *severities* to classify errors. You should read the [basic introduction to IPEMS](https://github.com/arctic-hen7/ipems/blob/main/protocol/basic-introduction.md) to understand how these work. For quick reference, see the [default paradigm cheatsheet](./cheatsheet.md).
 
 You can install IPEMS easily with:
 ```
